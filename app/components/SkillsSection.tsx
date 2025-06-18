@@ -11,7 +11,7 @@ const SkillsSection = () => {
 		},
 		{
 			category: 'Backend',
-			items: ['Spring Boot', 'Node.js', 'Fast API', 'PostgreSQL' ],
+			items: ['Spring Boot', 'NestJS', 'Fast API', 'Hibernate', 'JPA', 'REST APIs'],
 			icon: (
 				<svg className="w-5 h-5 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
 					<path d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2" />
@@ -19,11 +19,38 @@ const SkillsSection = () => {
 			),
 		},
 		{
-			category: 'Cloud',
-			items: ['AWS', 'Docker'],
+			category: 'Databases',
+			items: ['PostgreSQL', 'MySQL', 'MongoDB', 'Oracle '],
+			icon: (
+				<svg className="w-5 h-5 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+					<path d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4" />
+				</svg>
+			),
+		},
+		{
+			category: 'Cloud & DevOps',
+			items: ['AWS', 'Docker', 'Kubernetes', 'CI/CD', 'Git', 'Jenkins', 'Azure Pipelines', 'Azure DevOps'],
 			icon: (
 				<svg className="w-5 h-5 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
 					<path d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
+				</svg>
+			),
+		},
+		{
+			category: 'Frontend',
+			items: ['React', 'Angular', 'Vue.js', 'Material UI'],
+			icon: (
+				<svg className="w-5 h-5 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+					<path d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+				</svg>
+			),
+		},
+		{
+			category: 'Testing & Quality',
+			items: ['JUnit', 'Mockito', 'Jest', 'SonarQube', 'Code Coverage'],
+			icon: (
+				<svg className="w-5 h-5 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+					<path d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
 				</svg>
 			),
 		},
@@ -51,7 +78,7 @@ const SkillsSection = () => {
 					</div>
 
 					{/* Skills Grid */}
-					<div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+					<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 						{skills.map((skillGroup, index) => (
 							<div
 								key={skillGroup.category}
@@ -62,7 +89,10 @@ const SkillsSection = () => {
 									<div className={`w-12 h-12 rounded-xl flex items-center justify-center ${
 										index === 0 ? 'bg-gradient-to-r from-blue-500 to-blue-600' :
 											index === 1 ? 'bg-gradient-to-r from-cyan-500 to-cyan-600' :
-												'bg-gradient-to-r from-sky-500 to-sky-600'
+											index === 2 ? 'bg-gradient-to-r from-emerald-500 to-emerald-600' :
+											index === 3 ? 'bg-gradient-to-r from-purple-500 to-purple-600' :
+											index === 4 ? 'bg-gradient-to-r from-orange-500 to-orange-600' :
+												'bg-gradient-to-r from-pink-500 to-pink-600'
 									}`}>
 										{skillGroup.icon}
 									</div>
