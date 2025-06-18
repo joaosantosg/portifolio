@@ -5,18 +5,18 @@ import ExperienceSection from './components/ExperienceSection';
 export default function Portifolio() {
 	return (
 		<main>
-			<div className="grid grid-cols-12 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 min-h-full border-b border-white/10">
-				{/* Left Column - Profile (5/12) */}
-				<div className="col-span-5">
+			<div className="grid grid-cols-12  pb-64 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 min-h-full border-b border-white/10">
+				{/* Left Column - Profile (mobile: full width, md+: 5/12) */}
+				<div className="col-span-12 md:col-span-5">
 					<ProfileSection />
 				</div>
 
-				{/* Right Column - Skills + Experience (6/12) + Divider */}
-				<div className="col-span-7 flex flex-col justify-center border-l border-white/10 pl-4 md:pl-8">	
-					<div>
+				{/* Right Column - Skills + Experience (mobile: full width, md+: 7/12) */}
+				<div className="col-span-12 md:col-span-7 flex flex-col justify-center border-t md:border-t-0 md:border-l border-white/10 pt-4 md:pl-8">	
+					<div className="col-span-12">
 						<SkillsSection />
 					</div>
-					<div>
+					<div className="col-span-12 mt-8">
 						<ExperienceSection />
 					</div>
 				</div>
@@ -24,4 +24,3 @@ export default function Portifolio() {
 		</main>
 	);
 }
-
