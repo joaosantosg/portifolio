@@ -28,7 +28,7 @@ const ProfileSection = () => {
 						<h1 className="text-3xl font-bold text-white mb-2 bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
 							João Santos
 						</h1>
-						<h2 className="text-2xl text-slate-300 mb-4">Java Backend Developer</h2>
+						<h2 className="text-2xl text-slate-300 mb-4">Backend Developer</h2>
 
 						{/* Animated Divider */}
 						<div className="flex justify-center mb-4">
@@ -36,7 +36,7 @@ const ProfileSection = () => {
 						</div>
 
 						<p className="text-lg text-slate-400 leading-relaxed">
-							Java Backend Developer with a passion for creating scalable and efficient solutions. I specialize in Java, Spring Boot, and clean code practices to deliver high-quality software that meets user needs.
+							Backend Developer with a passion for creating scalable and efficient solutions. I specialize in Java, Spring Boot, and clean code practices to deliver high-quality software that meets user needs.
 						</p>
 					</div>
 
