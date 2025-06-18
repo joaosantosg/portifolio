@@ -4,14 +4,13 @@ const ExperienceSection = () => {
 			role: 'Mid Level Software Engineer (Full Stack)',
 			company: 'Equitys Tecnologia',
 			period: '2023 - Present',
-			highlights: 'Develop applications using React, Java Spring Boot, and PostgreSQL. Focus on performance optimization and code quality.',
+			highlights: 'Develop applications using React, Angular, Java Spring Boot, Fast API. Focus on performance optimization and code quality.',
 			status: 'current'
 		},
 		{
 			role: 'Software Enginner',
-			company: 'João Santos Soluçoes',
+			company: 'João Santos Soluções',
 			period: '2023 - Present',
-			// Projetos freelances 
 			highlights: 'Freelance projects focusing on backend development with Java and Spring Boot. Implemented RESTful APIs and optimized database queries.',
 			status: 'current'	
 		},
