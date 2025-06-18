@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const ProfileSection = () => {
 	return (
-		<div className="min-h-full flex justify-center  justify-center px-4 sm:px-6 lg:px-8 py-16">
+		<div className="h-full flex items-center justify-center px-4 sm:px-6 lg:px-8 py-8 md:py-16">
 			<div className="max-w-2xl w-full">
 				{/* Card Container */}
 				<div className="bg-white/10 backdrop-blur-md rounded-3xl p-8 shadow-2xl border border-white/20">

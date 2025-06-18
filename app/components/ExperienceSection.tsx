@@ -26,11 +26,8 @@ const ExperienceSection = () => {
 
 		// Extrai o ano inicial de cada experiência
 	const startYears = experiences.map(exp => {
-		console.log(exp.period);
-		console.log(exp.period.split(' - '));
 		const [start] = exp.period.split(' - ');
-		console.log(start);
-		
+	
 		return parseInt(start);
 	});
 
