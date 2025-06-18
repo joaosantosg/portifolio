@@ -42,7 +42,7 @@ const ExperienceSection = () => {
 
 
 	return (
-		<div className="min-h-full flex justify-cente  px-4 sm:px-6 lg:px-8 pb-16">
+		<div className="min-h-full flex justify-cente  px-4 sm:px-6 lg:px-8">
 			<div className=" w-full">
 				{/* Card Container */}
 				<div className="bg-white/10 backdrop-blur-md rounded-3xl p-8 shadow-2xl border border-white/20">
