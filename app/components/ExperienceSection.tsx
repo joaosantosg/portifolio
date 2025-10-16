@@ -1,11 +1,18 @@
 const ExperienceSection = () => {
 	const experiences = [
+			{
+			role: 'Mid Level Software Engineer (Full Stack)',
+			company: 'Senai Soluções Digitais',
+			period: '2025 - Present',
+			highlights: 'Specialized in system integrations using Java EE 11 and JSF. Responsible for designing, implementing, and maintaining integration flows between internal and external systems, ensuring high reliability and performance. Focused on scalability, maintainable architecture, and clean code practices.',
+			status: 'current'
+			},
 		{
 			role: 'Mid Level Software Engineer (Full Stack)',
 			company: 'Equitys Tecnologia',
-			period: '2023 - Present',
+			period: '2023 - 2025',
 			highlights: 'Develop applications using React, Angular, Java Spring Boot, Fast API. Focus on performance optimization and code quality.',
-			status: 'current'
+			status: 'past'
 		},
 		{
 			role: 'Software Enginner',
