@@ -3,14 +3,14 @@ const ExperienceSection = () => {
         {
             role: 'Mid Level Software Engineer (Full Stack)',
             company: 'Senai Soluções Digitais',
-            period: '2024 - Present',
+            period: '2025 - Present',
             highlights: 'Especializado em integrações de sistemas utilizando Java EE e JSF. Responsável por projetar, implementar e manter fluxos de integração entre sistemas internos e externos, garantindo alta confiabilidade e performance.',
             status: 'current'
         },
         {
             role: 'Mid Level Software Engineer (Full Stack)',
             company: 'Equitys Tecnologia',
-            period: '2023 - 2024',
+            period: '2022 - 2025',
             highlights: 'Desenvolvimento de aplicações robustas utilizando React, Angular e Java Spring Boot. Foco em otimização de performance e arquitetura de microserviços.',
             status: 'past'
         },
@@ -24,7 +24,7 @@ const ExperienceSection = () => {
         {
             role: 'Frontend Developer',
             company: 'Fábrica de Tecnologias Turing (FTT)',
-            period: '2022 - 2023',
+            period: '2022 - 2022',
             highlights: 'Desenvolvimento de interfaces modernas com React e TypeScript, focando em usabilidade, acessibilidade e performance do front-end.',
             status: 'past'
         },
